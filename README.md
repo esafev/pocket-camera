@@ -1,5 +1,7 @@
 # Pocket Camera
 
+![Pocket Camera Demo](demo.gif)
+
 Web-component that transforms your webcam into a Nintendo GameBoy Camera with authentic dithering and 4-color green palette. A nostalgic filter that recreates the iconic 1998 handheld camera experience.
 
 Originally created in 2022 as a colorblind accessibility experiment.
