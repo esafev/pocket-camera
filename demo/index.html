@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pocket Camera — Nintendo GameBoy Camera Filter</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+      background: #0f380f;
+      color: #8bac0f;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: normal;
+      -webkit-font-smoothing: none;
+      font-smooth: never;
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .demo {
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: .3em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="demo">
+      <pocket-camera auto-start="false" width="480" height="320"></pocket-camera>
+      <p><b>> Hint:</b> Click right mouse button to save the image</p>
+    </div>
+  </div>
+
+  <script type="module">
+    import '../dist/pocket-camera.js';
+  </script>
+</body>
+</html>

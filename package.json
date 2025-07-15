@@ -1,23 +1,18 @@
 {
   "name": "pocket-camera",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Nintendo Game Boy Camera filter",
+  "license": "MIT",
+  "author": "Vlad Esafev",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/pocket-camera.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "tsc && concurrently \"tsc --watch\" \"wds\"",
+    "build": "tsc"
   },
-  "dependencies": {
-    "@next/font": "13.1.3",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.3",
-    "next": "13.1.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6",
+    "concurrently": "^9.2.0",
+    "typescript": "^5.8.3"
   }
 }
