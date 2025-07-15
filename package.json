@@ -7,8 +7,8 @@
   "type": "module",
   "main": "dist/pocket-camera.js",
   "scripts": {
-    "dev": "tsc && concurrently \"tsc --watch\" \"wds\"",
-    "build": "tsc --outDir demo/dist"
+    "demo:dev": "tsc && concurrently \"tsc --watch\" \"wds\"",
+    "demo:build": "tsc --outDir demo"
   },
   "devDependencies": {
     "@web/dev-server": "^0.4.6",

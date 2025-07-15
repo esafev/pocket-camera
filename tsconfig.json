@@ -5,7 +5,7 @@
     "moduleResolution": "node",
     "lib": ["ESNext", "dom"],
     "strict": true,
-    "outDir": "dist",
+    "outDir": "demo/dist",
     "skipLibCheck": true
   },
   "include": ["src/**/*.ts"]
