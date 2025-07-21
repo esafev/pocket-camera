@@ -23,7 +23,7 @@ Copy these files:
 ## Demo
 
 ```bash
-npm run demo:dev
+bun run demo:dev
 ```
 
 Visit `http://localhost:8000/demo/`
@@ -31,7 +31,7 @@ Visit `http://localhost:8000/demo/`
 ## Build
 
 ```bash
-npm run demo:build
+bun run demo:build
 ```
 
 ## License
