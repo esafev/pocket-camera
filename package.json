@@ -12,7 +12,9 @@
   },
   "devDependencies": {
     "@web/dev-server": "^0.4.6",
-    "concurrently": "^9.2.0",
-    "typescript": "^5.8.3"
+    "concurrently": "^9.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "latest"
   }
 }
